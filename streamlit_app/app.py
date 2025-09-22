@@ -54,6 +54,4 @@ if st.checkbox("Show extra content"):
 else:
     ValueError("Checkbox is not selected")
 
-
-
-
+#fix button interact logic
