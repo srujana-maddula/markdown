@@ -41,6 +41,8 @@ st.line_chart(data)
 # Button
 if st.button("Click Me"):
     st.success("Button clicked successfully! 🎉")
+else:
+    ValueError("Button not clicked yet")
 
 # Select box
 choice = st.selectbox("Choose an option:", ["Option 1", "Option 2", "Option 3"])
