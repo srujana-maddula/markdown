@@ -49,6 +49,8 @@ st.write(f"You selected: **{choice}**")
 # Checkbox
 if st.checkbox("Show extra content"):
     st.write("Here’s some extra content 🎉")
+else:
+    ValueError("Checkbox is not selected")
 
 
 
