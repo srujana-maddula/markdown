@@ -40,7 +40,7 @@ st.line_chart(data)
 
 # Button
 if st.button("Click Me"):
-    st.success("Button clicked successfully! 🎉")
+    st.success("Button clicked successfully! 🎉"
 else:
     ValueError("Button not clicked yet")
 
