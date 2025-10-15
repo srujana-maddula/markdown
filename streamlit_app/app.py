@@ -41,7 +41,7 @@ st.line_chart(data)
 # Button
 if st.button("Click Me"):
     st.success("Button clicked successfully! 🎉")
-    st.success("check the graph created")
+    st.success("check the graph created"
 
 # Select box
 choice = st.selectbox("Choose an option:", ["Option 1", "Option 2", "Option 3"])
